@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | My Learning & Cricket Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>MyWebsite</h1>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" id="loginBtn">Login</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero hero-home">
+    <div class="hero-content">
+        <h2>Learn Web Development & Cricket Skills</h2>
+        <p>Join thousands of students and beginners who are improving their skills every day. Practical tutorials, videos, and guides await!</p>
+        <div class="hero-buttons">
+            <button class="btn" onclick="window.location.href='learn.html'">Explore Courses</button>
+            <button class="btn btn-outline" onclick="window.location.href='about.html'">About Us</button>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features">
+    <h2>Why Choose Our Platform?</h2>
+    <div class="card-container">
+        <div class="card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript, and build real websites step by step.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-cricket-bat-ball"></i>
+            <h3>Cricket Knowledge</h3>
+            <p>Master rules, techniques, famous players, and strategies of cricket.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-computer"></i>
+            <h3>Computer Skills</h3>
+            <p>Improve essential computer knowledge, typing skills, and tools for productivity.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Tips & Tutorials</h3>
+            <p>Study hacks, project ideas, and practical guides to help you succeed.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 MyWebsite | All Rights Reserved</p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+
+<!-- LOGIN MODAL -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button class="btn" id="loginSubmit">Login</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

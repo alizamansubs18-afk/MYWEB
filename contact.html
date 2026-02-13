@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | My Learning & Cricket Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>MyWebsite</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="#" id="loginBtn">Login</a></li>
+    </ul>
+</nav>
+
+<section class="hero hero-contact">
+    <div class="hero-content">
+        <h2>Contact Us</h2>
+        <p>Have questions? Need guidance? Reach out through email or social media.</p>
+        <ul class="contact-list">
+            <li><i class="fa-solid fa-envelope"></i> info@mywebsite.com</li>
+            <li><i class="fab fa-facebook"></i> facebook.com/mywebsite</li>
+            <li><i class="fab fa-youtube"></i> youtube.com/mywebsite</li>
+            <li><i class="fab fa-instagram"></i> instagram.com/mywebsite</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 MyWebsite | All Rights Reserved</p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button class="btn" id="loginSubmit">Login</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
